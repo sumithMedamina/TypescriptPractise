@@ -104,3 +104,8 @@ var ProductInfo = /** @class */ (function () {
 }());
 var Pdi = new ProductInfo();
 Pdi.Print();
+function Print(a, b) {
+    console.log("a=".concat(a, " b=").concat(b));
+}
+Print(10, 20);
+Print("Jhon", "Manger");

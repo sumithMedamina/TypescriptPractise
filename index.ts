@@ -164,3 +164,11 @@ class ProductInfo implements Iproduct,ICategoryName{
 
 let Pdi = new ProductInfo();
 Pdi.Print();
+
+
+function Print<T>(a:T,b:T){
+console.log(`a=${a} b=${b}`);
+}
+
+Print<number>(10,20);
+Print<string>("Jhon","Manger");
